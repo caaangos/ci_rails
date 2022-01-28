@@ -82,5 +82,3 @@ test:
 production:
   <<: *default
   database: ci_rails_production
-  username: ci_rails
-  password: <%= ENV['CI_RAILS_DATABASE_PASSWORD'] %>
